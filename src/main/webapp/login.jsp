@@ -11,7 +11,7 @@
 		JspWriter pw = out;
 	
 		String us="suhas";
-		String ps="suhas";
+		String ps="jsuhas";
 		String us1=request.getParameter("a");
 		String pw1=request.getParameter("b");
 		if(us1 != null && pw1 != null && us1.equals(us) && pw1.equals(ps)){
